@@ -36,6 +36,7 @@ public class Main {
                 }
             }
             System.out.println("The most frequent word is: " + mostFreqWord);
+            System.out.println("Number of sentences containing the word: " + maxFreq);
         } catch (NullPointerException e) {
             System.out.println("The text is empty");
         } catch (Exception e) {
